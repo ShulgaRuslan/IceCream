@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ShulgaRuslan.github.io/team-hardcode",
+  "homepage": "https://ShulgaRuslan.github.io/Icecream",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-hardcode/"
+    "build": "parcel build src/*.html --public-url /Icecream/"
   },
   "repository": {
     "type": "git",
