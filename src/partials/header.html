@@ -1,0 +1,159 @@
+<section class="section-color">
+    <div class="hero section-hero">
+        <header class="header">
+            <div class="header-box">
+                <a class="logo" href="./index.html">
+                    <svg class="logo__svg">
+                        <use class="logo__svg-use" href="./img/symbol-defs.svg#icon-logo"></use>
+                    </svg>
+                </a>
+
+                <ul class="header-menu__list">
+                    <li class="header-menu__item"><a class="header-menu__link header-menu__link--active"
+                            href="./index.html">Home</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#gallery">About us</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#about">How it’s made?</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#products">Our products</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#contacts">Contact</a></li>
+                </ul>
+
+
+                <button class="header__btn-open" data-menu-button type="button">
+                    <svg class="header__btn-switcher--open" aria-label="Переключатель мобильного меню">
+                        <use href="./img/symbol-defs.svg#icon-burger"></use>
+                    </svg>
+                </button>
+
+                <button class="header__btn-outside" type="button" data-modal-open><span class="header__btn-text">Buy
+                        now</span><svg class="header__btn-svg" width="5" height="8">
+                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                    </svg></button>
+            </div>
+            <!-- ======================modal============================ -->
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="modal__btn" data-modal-close>
+                        <svg class="modal__btn--img">
+                            <use href="./img/symbol-defs.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <form class="form">
+                        <b class="form__title">Hello! Enter your details and we'll call you back</b>
+                        <label class="form__label">
+                            <span class="form__name">Your name</span>
+
+                            <input class="form__input" type="text" name="username">
+                        </label>
+
+                        <label class="form__label">
+                            <span class="form__name">Your tel</span>
+
+                            <input class="form__input" type="text" name="phone">
+                        </label>
+
+                        <label class="form__label">
+                            <span class="form__name">Your E-mail</span>
+
+                            <input class="form__input" type="text" name="email">
+                        </label>
+
+                        <label class="form__label">
+                            <span class="form__name">Your order</span>
+
+                            <input class="form__input" type="text" name="Your order">
+                        </label>
+
+
+                        <button class="form__btn" type="submit">Send</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- ============================modal end============================= -->
+
+            <div class="menu-mobil is-open" data-menu>
+
+                <button class="header__btn-close" data-menu-button type="button">
+                    <svg class="header__btn-switcher--close" width="14" height="14"
+                        aria-label="Переключатель мобильного меню">
+                        <use href="./img/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <a class="header__btn-link" href="#" data-modal-open-2>
+                    <span class="header__btn-text">Buy now</span>
+                    <svg class="header__btn-svg" width="5" height="8">
+                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                    </svg>
+                </a>
+
+
+                <ul class="menu-mobil__list">
+                    <li class="menu-mobil__item"><a class="header__mobil-link" href="./index.html">Home</a></li>
+                    <li class="menu-mobil__item"><a class="header__mobil-link" href="#gallery">About us</a></li>
+                    <li class="menu-mobil__item"><a class="header__mobil-link" href="#about">How it’s made?</a></li>
+                    <li class="menu-mobil__item"><a class="header__mobil-link" href="#products">Our products</a></li>
+                    <li class="menu-mobil__item"><a class="header__mobil-link" href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+
+
+
+        </header>
+
+        <h1 class="hero-title"><span>ice cream
+                made with</span><span class="hero-title__size">passion</span>
+        </h1>
+        <ul class="hero__btn-list">
+            <li class="hero-btn__item"><a class="hero__btn-link" href="#products">Products</a></li>
+            <li class="hero-btn__item"><a class="hero__btn-link--second" href="#about">How it’s made?</a></li>
+        </ul>
+        <div class="hero-box">
+            <p class="hero-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et</p>
+            <button class="hero-box__btn">
+                <svg class="hero-box__svg">
+                    <use href="./img/symbol-defs.svg#icon-arrow-right2"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="hero-thumb__left">
+            <picture>
+                <source srcset="./img/01hero_header/milk.png 1x, ./img/01hero_header/milk@2x.png 2x "
+                    media="(min-width: 1200px)" />
+
+                <source srcset="./img/01hero_header/milk-tablet.png 1x, ./img/01hero_header/milk-tablet@2x.png 2x "
+                    media="(min-width: 768px)" />
+                <img src="./img/01hero_header/milk.png" alt="кувшин с молоком">
+            </picture>
+        </div>
+
+        <div class="hero-thumb__right">
+            <picture>
+                <source srcset="./img/01hero_header/girl.png 1x, ./img/01hero_header/girl@2x.png 2x "
+                    media="(min-width: 1200px)" />
+
+                <source srcset="./img/01hero_header/girl-tablet.png 1x, ./img/01hero_header/girl-tablet@2x.png 2x "
+                    media="(min-width: 768px)" />
+                <img src="./img/01hero_header/girl.png" alt="кувшин с молоком">
+            </picture>
+        </div>
+
+        <div class="numbers-box">
+            <span class="numbers-box__number">16</span>
+            <span class="numbers-box__text">cafes</span>
+            <span class="numbers-box__radius"></span>
+        </div>
+
+        <div class="numbers-box--second">
+            <span class="numbers-box__number--second">23</span>
+            <span class="numbers-box__text--second">food trucks</span>
+            <span class="numbers-box__radius--second"></span>
+        </div>
+
+
+    </div>
+</section>
